@@ -11,7 +11,7 @@ public class CameraControl : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		//transform.Rotate(Vector3.up);
 		//transform.Translate(Vector3.forward * 0.01f);
 		if (Input.GetKey (KeyCode.W)) {
@@ -30,6 +30,13 @@ public class CameraControl : MonoBehaviour {
 		if (Input.GetKey ("space")){
 			rigidbody.AddForce(target.forward * 0.2f);
 		}
+		if (Input.GetKey (KeyCode.LeftArrow)) {
+			transform.Rotate(new Vector3(0,0,.5f));
+		}
+		if (Input.GetKey (KeyCode.RightArrow)) {
+			transform.Rotate(new Vector3(0,0,-.5f));
+		}
+		
 		if (Input.GetKey (KeyCode.F)) {
 			rigidbody.angularDrag=.6f;
 			rigidbody.drag=.6f;
