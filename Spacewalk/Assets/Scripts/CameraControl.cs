@@ -31,8 +31,8 @@ public class CameraControl : MonoBehaviour {
 			rigidbody.AddForce(target.forward * 0.2f);
 		}
 		if (Input.GetKey (KeyCode.F)) {
-			rigidbody.angularDrag=1;
-			rigidbody.drag=1;
+			rigidbody.angularDrag=.6f;
+			rigidbody.drag=.6f;
 		}else{
 			rigidbody.drag=0;
 			rigidbody.angularDrag=0;
