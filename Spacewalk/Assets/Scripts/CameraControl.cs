@@ -28,7 +28,7 @@ public class CameraControl : MonoBehaviour {
 			transform.Rotate(Vector3.up);
 		}
 		if (Input.GetKey ("space")){
-			rigidbody.AddForce(target.up * 0.1f);
+			rigidbody.AddForce(target.forward * 0.1f);
 		}
 	}
 }
