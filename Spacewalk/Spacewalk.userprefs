@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MouseControl.js">
     <Files>
       <File FileName="Assets/Scripts/CameraControl.cs" Line="37" Column="21" />
-      <File FileName="Assets/Scripts/Mouse.cs" Line="16" Column="29" />
-      <File FileName="Assets/Scripts/MouseControl.js" Line="3" Column="21" />
+      <File FileName="Assets/Scripts/MouseControl.js" Line="15" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
