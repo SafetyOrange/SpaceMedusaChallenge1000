@@ -15,7 +15,7 @@ function FixedUpdate (){
     var x : float = - verticalSpeed * Input.GetAxis ("Mouse Y");
  
 //    transform.Translate (x, 0, y);
-transform.Rotate (x, 0, y);
+	transform.Rotate (x, 0, y);
 //	rigidbody.AddForce(x, 0, y);
 //	var localForce : Vector3 = camera.TransformDirection(new Vector3(x, 0, y));
 //	localForce.y = 0;
