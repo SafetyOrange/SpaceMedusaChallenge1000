@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: a268858ac9cf307408eae18b7ba636a8
+guid: f8216bac5fe4340a483168767bb5e4a4
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 16
   fileIDToRecycleName:
     100000: GeoSphere004
     100002: GeoSphere005
@@ -72,4 +72,5 @@ ModelImporter:
     rootMotionBoneName: 
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 2
+  additionalBone: 0
   userData: 
